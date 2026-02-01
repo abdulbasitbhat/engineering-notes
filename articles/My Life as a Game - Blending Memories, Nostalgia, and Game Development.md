@@ -3,7 +3,7 @@
 **Author:** basit316316@gmail.com  
 **Date:** May 30, 2025  
 **Tags:** Aseprite, Game Development, Godot, Pixel Art
-
+![diagram](../images/MyLifeasaGameBlendingMemoriesNostalgiaandGameDevelopment/cropped-pixel_nature_by_ghost999919_dgud86u-fullview.jpg)
 There has always been a nostalgic me. Moments that define me and moments that hold me steadfast in adversity have always been there. Some make me hopeful, and some soothe me when things go wrong.
 
 On the other hand, I love Engineering. To some, they may not be able to become what they answered in their 2nd grade exam question, ‘What do you want to become?’, but for me, it was ‘An Engineer’, always. But it was never software that inspired me, but the ones more core, like Mechanical and Robotics. In the world, some tradeoffs need to be made; money matters. To be honest, it was even better to be in software. You get ultimate freedom in creating anything in a virtual world, just using a computer.
@@ -40,9 +40,9 @@ I may switch from one to another to bring some variety. It may seem too much to 
 
 ### First Inspirations
 
-![diagram](../)
-![diagram](../)
-![diagram](../)
+![diagram](../images/MyLifeasaGameBlendingMemoriesNostalgiaandGameDevelopment/Cozy-Night-in-a-Programmers-Room.png)
+![diagram](../images/MyLifeasaGameBlendingMemoriesNostalgiaandGameDevelopment/Nostalgic-Memories-Across-Time-300x200.png)
+![diagram](../images/MyLifeasaGameBlendingMemoriesNostalgiaandGameDevelopment/Pixel-Art-Collage-of-Cozy-Moments.png)
 
 Prompting ChatGPT led me to these images. The first one is just perfect. It’s what I want. I get several possibilities with this one. Keep me as a playable or keep something else as playable. Maybe a cat, which jumps over the scene and has a quest. The second image depicts how I want my cut-scenes to be. The third one is closer to my vision of how it can go. Instead of these scenes exactly, I create ones closer to my memories.
 
@@ -72,40 +72,44 @@ The first thing I want to focus on is the character. I want the game to be a POV
 
 Recently, I purchased Aseprite from Steam, and it’s going to be my workshop. After some online inspiration, I was able to create a cat. Take a look:
 
-![diagram](../)
+![diagram](../images/MyLifeasaGameBlendingMemoriesNostalgiaandGameDevelopment/image-1.png)
 
 And to animate it, just play with pixels on its legs, tail, and eyes.
 
 I divided my assets into 3 sections: Characters, Environments, and Objects. For a basic understanding of merging the assets, I made a simple rain background as an environment.
 
+![diagram](../images/MyLifeasaGameBlendingMemoriesNostalgiaandGameDevelopment/image-2.png)
+
 This is a single tile block, proportional to a cat. I made a 64×64 version of it by stitching these blocks together with some minor variations.
 
-![diagram](../)
+![diagram](../images/MyLifeasaGameBlendingMemoriesNostalgiaandGameDevelopment/image-3.png)
 
 Aseprite has animation features as well. I created another frame with a minor change in pixel positions, and then another, and then another. After getting the 4 frames, I looped them together.
 
 When you export the animation, you can do it in a tileset format. A tileset is just an image with frames of animation stitched together. You can import the image into a Godot sprite sheet and easily divide the frames.
 
-![diagram](../)
+![diagram](../images/MyLifeasaGameBlendingMemoriesNostalgiaandGameDevelopment/image-4-1024x258.png)
 
 So if I import this into Godot, it will allow me to select the number of divisions for the sprite sheet. For me it’s 4×1. The image is split into 4 frames, which can be animated by the Godot toolset.
 
 I did a similar thing for animating the cat and the frames are:
 
-![diagram](../)
+![diagram](../images/MyLifeasaGameBlendingMemoriesNostalgiaandGameDevelopment/image-6-1024x153.png)
 
 ---
 
 ## The Scene
+![diagram](../images/MyLifeasaGameBlendingMemoriesNostalgiaandGameDevelopment/image-5-1024x576.png)
 
 At the top, you can see I have 4 Scenes. The Main scene is the Game Scene. The “Rainy Night BG” is made up of a mesh of “Rainy Night” scenes, which are of type Node2D, having AnimatedSprite2D as their child.
+![diagram](../images/MyLifeasaGameBlendingMemoriesNostalgiaandGameDevelopment/image-8-1024x506.png)
 
-![diagram](../)
 
 AnimatedSprite2D allows for importing a sprite sheet, splitting it into SpriteFrames, which can be rendered. In the “Rainy Night Bg” scene, I created a mesh of “Rainy Night” Scenes. Since the Rainy Night Scenes are already animated, the “Rainy Night Bg” scene will also be animated.
+![diagram](../images/MyLifeasaGameBlendingMemoriesNostalgiaandGameDevelopment/image-9-1024x509.png)
 
 Similarly, the cat is another Node2D of type CharacterBody2D. Which further has AnimatedSprite2D and CollisionBody2D as children for rendering running animation and for making the character collidable, i.e send a collision signal.
-
+![diagram](../images/MyLifeasaGameBlendingMemoriesNostalgiaandGameDevelopment/image-7-1024x508.png)
 ### Scripting the Movement
 
 The CharacterBody2D has a script attached as:
@@ -120,6 +124,7 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 ```
 
+[Video](https://drive.google.com/file/d/1pPEOY5Sr-NpCQN0YYRbYWhbx0SEzWIRM/view?usp=sharing)
 Yes, it’s bad. But it’s the first time. For now, it’s enough to know the flow.
 
 For the rest of this year, I will be making Pixel Art. Just it. But now I know about the tileset, stitching, animation, etc, logic. Hope it will be easier now.
