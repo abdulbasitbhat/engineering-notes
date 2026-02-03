@@ -13,7 +13,7 @@ I will use **Eclipse IDE** and **MySQL Workbench** for this project.
 
 The project structure will look like this:
 
-![Project structure](../images/The15MinuteSpringBootChallengeArticle/image-4-1536x647.png)
+![Project structure](./images/The15MinuteSpringBootChallengeArticle/image-4-1536x647.png)
 
 Java projects follow a layered structure, similar to other languages, but Spring Boot provides one of the most well-structured and opinionated project organizations I’ve seen.
 
@@ -82,7 +82,7 @@ Now that we understand the project structure, let’s implement it.
 1. Go to **https://start.spring.io**
 2. Create a project template
 
-![Spring Initializr](../images/The15MinuteSpringBootChallengeArticle/image-6-1536x822.png)
+![Spring Initializr](./images/The15MinuteSpringBootChallengeArticle/image-6-1536x822.png)
 
 Keep the configurations similar to the above and add the required dependencies.  
 Click **Generate**, download the ZIP file, and extract it.
@@ -97,7 +97,7 @@ Click **Generate**, download the ZIP file, and extract it.
 3. Select your project folder
 4. Wait for dependencies to load
 
-![Import project](../images/The15MinuteSpringBootChallengeArticle/image-7.png)
+![Import project](./images/The15MinuteSpringBootChallengeArticle/image-7.png)
 
 ---
 
@@ -121,7 +121,7 @@ Also keep an eye on:
 
 ### ProjectApplication.java
 
-![ProjectApplication](../images/The15MinuteSpringBootChallengeArticle/image-8.png)
+![ProjectApplication](./images/The15MinuteSpringBootChallengeArticle/image-8.png)
 
 `@SpringBootApplication` tells the **IOC container** that this is a Spring Boot project.
 
@@ -129,7 +129,7 @@ Also keep an eye on:
 
 ### Course.java
 
-![Course entity](../images/The15MinuteSpringBootChallengeArticle/image-10.png)
+![Course entity](./images/The15MinuteSpringBootChallengeArticle/image-10.png)
 
 Important annotations:
 - `@Entity` → Marks the class as a database entity
@@ -154,7 +154,7 @@ Objects of this class can be persisted directly using JPA.
 
 ### CourseRepository.java
 
-![Repository](../images/The15MinuteSpringBootChallengeArticle/image-11.png)
+![Repository](./images/The15MinuteSpringBootChallengeArticle/image-11.png)
 
 This interface extends `JpaRepository<Course, Serializable>`.
 
@@ -167,7 +167,7 @@ Key points:
 
 ### CourseService.java
 
-![Service interface](../images/The15MinuteSpringBootChallengeArticle/image-12.png)
+![Service interface](./images/The15MinuteSpringBootChallengeArticle/image-12.png)
 
 The service layer provides abstraction.
 
@@ -181,7 +181,7 @@ CRUD functions:
 
 ### CourseServiceImpl.java
 
-![Service implementation](../images/The15MinuteSpringBootChallengeArticle/image-13.png)
+![Service implementation](./images/The15MinuteSpringBootChallengeArticle/image-13.png)
 
 This file contains actual business logic.
 
@@ -194,7 +194,7 @@ Key concepts:
 
 ### RestController.java
 
-![Rest controller](../images/The15MinuteSpringBootChallengeArticle/image-14.png)
+![Rest controller](./images/The15MinuteSpringBootChallengeArticle/image-14.png)
 
 This is the **entry point for all API requests**.
 
@@ -209,7 +209,7 @@ This is the **entry point for all API requests**.
 
 Database configuration is done in `application.properties`.
 
-![Application properties](../images/The15MinuteSpringBootChallengeArticle/image-15.png)
+![Application properties](./images/The15MinuteSpringBootChallengeArticle/image-15.png)
 
 Notes:
 - `hibernate.ddl-auto=update` → auto-updates schema
@@ -218,7 +218,7 @@ Notes:
 
 Create the database in MySQL Workbench:
 
-![Create DB](../images/The15MinuteSpringBootChallengeArticle/image-16.png)
+![Create DB](./images/The15MinuteSpringBootChallengeArticle/image-16.png)
 
 Tables will be created automatically by JPA.
 
@@ -235,17 +235,17 @@ Your APIs are now live locally.
 
 ## Postman Testing
 
-![Postman test](../images/The15MinuteSpringBootChallengeArticle/image-17.png)
-![Postman test](../images/The15MinuteSpringBootChallengeArticle/image-18.png)
-![Postman test](../images/The15MinuteSpringBootChallengeArticle/image-20.png)
-![Postman test](../images/The15MinuteSpringBootChallengeArticle/image-21.png)
-![Postman test](../images/The15MinuteSpringBootChallengeArticle/image-22.png)
+![Postman test](./images/The15MinuteSpringBootChallengeArticle/image-17.png)
+![Postman test](./images/The15MinuteSpringBootChallengeArticle/image-18.png)
+![Postman test](./images/The15MinuteSpringBootChallengeArticle/image-20.png)
+![Postman test](./images/The15MinuteSpringBootChallengeArticle/image-21.png)
+![Postman test](./images/The15MinuteSpringBootChallengeArticle/image-22.png)
 
 ---
 
 ### Database Verification
 
-![Database check](../images/The15MinuteSpringBootChallengeArticle/image-23.png)
+![Database check](./images/The15MinuteSpringBootChallengeArticle/image-23.png)
 
 ---
 

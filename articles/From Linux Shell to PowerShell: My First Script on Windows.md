@@ -80,7 +80,7 @@ while($true){
 ```powershell
 .\hourlyReminder.ps1 -Message "1. Drink Water`n2. Stretch a bit"
 ```
-![diagram](../images/FromLinuxShelltoPowerShellMyFirstScriptonWindows/image.png)
+![diagram](./images/FromLinuxShelltoPowerShellMyFirstScriptonWindows/image.png)
 
 ---
 
