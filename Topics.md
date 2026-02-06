@@ -1,4 +1,4 @@
-# 📘 Engineering Notes — Topics To Cover (with one-line descriptions)
+# 📘 Engineering Notes — Topics To Cover
 
 # 🧠 backend-engineering/
 
