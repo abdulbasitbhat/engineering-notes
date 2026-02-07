@@ -120,7 +120,7 @@
 
 ## react
 
-- ⚪ **React fundamentals** — Component-based UI development.  
+- 🟠 **React fundamentals** — Component-based UI development.  
 - ⚪ **Hooks deep dive** — State and lifecycle management.  
 - ⚪ **State management** — Managing UI state effectively.  
 - ⚪ **Context API** — Global state without prop drilling.  
