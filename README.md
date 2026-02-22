@@ -55,7 +55,7 @@
 - 🟠 **CLR fundamentals** — Runtime environment for .NET execution.  
 - 🟠 **C# deep dive** — Advanced language features and design usage.  
 - 🟠 **Memory management in .NET** — Garbage collection and allocation.  
-- ⚪ **Delegates & events** — Function references and event handling.  
+- 🟠 **Delegates & events** — Function references and event handling.  
 - ⚪ **LINQ deep dive** — Query data using C# expressions.  
 - ⚪ **Async/await deep dive** — Non-blocking asynchronous programming.  
 - ⚪ **Task vs thread** — Understand concurrency abstractions.  
