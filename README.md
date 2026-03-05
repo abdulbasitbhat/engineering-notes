@@ -273,90 +273,90 @@
 
 # ☁️ Cloud Engineering
 
-⚪ Deploying backend services to cloud  
-⚪ Containerizing applications (Docker)  
-⚪ Deploying containers to cloud platforms  
-⚪ CI/CD pipelines for cloud deployments  
-⚪ Environment configuration & secrets management  
-⚪ Logging & monitoring production services  
-⚪ Setting up health checks & alerts  
-⚪ Horizontal scaling of services  
-⚪ Load balancing traffic  
-⚪ Using managed databases  
-⚪ Database migrations in production  
-⚪ File storage systems (S3 / blob storage)  
-⚪ Caching layers in cloud systems (Redis)  
-⚪ Background workers & job queues  
-⚪ API gateways & routing  
-⚪ Cost monitoring & optimization  
-⚪ Incident handling in production systems  
+- ⚪ Deploying backend services to cloud  
+- ⚪ Containerizing applications (Docker)  
+- ⚪ Deploying containers to cloud platforms  
+- ⚪ CI/CD pipelines for cloud deployments  
+- ⚪ Environment configuration & secrets management  
+- ⚪ Logging & monitoring production services  
+- ⚪ Setting up health checks & alerts  
+- ⚪ Horizontal scaling of services  
+- ⚪ Load balancing traffic  
+- ⚪ Using managed databases  
+- ⚪ Database migrations in production  
+- ⚪ File storage systems (S3 / blob storage)  
+- ⚪ Caching layers in cloud systems (Redis)  
+- ⚪ Background workers & job queues  
+- ⚪ API gateways & routing  
+- ⚪ Cost monitoring & optimization  
+- ⚪ Incident handling in production systems  
 
 ---
 
 # ⚙️ DevOps
 
-⚪ CI/CD pipeline fundamentals  
-⚪ Automated builds and deployments  
-⚪ Infrastructure as code (Terraform / Pulumi basics)  
-⚪ Environment provisioning (dev / staging / prod)  
-⚪ Container orchestration basics (Kubernetes concepts)  
-⚪ Service configuration management  
-⚪ Secrets management strategies  
-⚪ Deployment strategies (blue-green, rolling, canary)  
-⚪ Observability (logs, metrics, traces)  
-⚪ Incident response workflow  
-⚪ Rollbacks & disaster recovery  
-⚪ Production debugging techniques  
-⚪ System health monitoring  
-⚪ Release management strategies  
+- ⚪ CI/CD pipeline fundamentals  
+- ⚪ Automated builds and deployments  
+- ⚪ Infrastructure as code (Terraform / Pulumi basics)  
+- ⚪ Environment provisioning (dev / staging / prod)  
+- ⚪ Container orchestration basics (Kubernetes concepts)  
+- ⚪ Service configuration management  
+- ⚪ Secrets management strategies  
+- ⚪ Deployment strategies (blue-green, rolling, canary)  
+- ⚪ Observability (logs, metrics, traces)  
+- ⚪ Incident response workflow  
+- ⚪ Rollbacks & disaster recovery  
+- ⚪ Production debugging techniques  
+- ⚪ System health monitoring  
+- ⚪ Release management strategies  
 
 ---
 # 🔧 developer-tools/
 
 ## git
 
-🟡 Commands 
-⚪ Git internals (objects, blobs, trees, commits)  
-⚪ Branching strategies  
-⚪ Rebase vs merge  
-⚪ Git history rewriting  
-⚪ Git hooks  
-⚪ Large repo strategies  
-⚪ Monorepo vs multirepo  
+- 🟡 Commands 
+- ⚪ Git internals (objects, blobs, trees, commits)  
+- ⚪ Branching strategies  
+- ⚪ Rebase vs merge  
+- ⚪ Git history rewriting  
+- ⚪ Git hooks  
+- ⚪ Large repo strategies  
+- ⚪ Monorepo vs multirepo  
 
 ---
 
 # 🧪 testing/
 
-⚪ Unit testing fundamentals  
-⚪ Integration testing  
-⚪ Mocking strategies  
-⚪ Contract testing  
-⚪ End-to-end testing  
-⚪ Test data management  
-⚪ Testing async code  
-⚪ Performance testing basics  
+- ⚪ Unit testing fundamentals  
+- ⚪ Integration testing  
+- ⚪ Mocking strategies  
+- ⚪ Contract testing  
+- ⚪ End-to-end testing  
+- ⚪ Test data management  
+- ⚪ Testing async code  
+- ⚪ Performance testing basics  
 
 ---
 
 # 🐛 debugging/
 
-⚪ Debugging production issues  
-⚪ Reading stack traces effectively  
-⚪ Log-driven debugging  
-⚪ Memory leak investigation  
-⚪ CPU bottleneck investigation  
-⚪ DB slow query debugging  
-⚪ Distributed system debugging  
+- ⚪ Debugging production issues  
+- ⚪ Reading stack traces effectively  
+- ⚪ Log-driven debugging  
+- ⚪ Memory leak investigation  
+- ⚪ CPU bottleneck investigation  
+- ⚪ DB slow query debugging  
+- ⚪ Distributed system debugging  
 
 ---
 
 ### Status Legend
-⚪ Not started  
-🟡 Created  
-🟠 Read and understand concept  
-🔵 Can implement without help  
-🟢 Used in real project  
-🟣 Can teach / design systems with it  
-🔴 Need revision
-🟤 Outdated / Needs Update
+- ⚪ Not started  
+- 🟡 Created  
+- 🟠 Read and understand concept  
+- 🔵 Can implement without help  
+- 🟢 Used in real project  
+- 🟣 Can teach / design systems with it  
+- 🔴 Need revision
+- 🟤 Outdated / Needs Update
