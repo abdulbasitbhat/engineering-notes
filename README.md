@@ -24,7 +24,8 @@
 - ⚪ **Logging best practices** — Record useful debug and production logs.  
 - ⚪ **Configuration management** — Manage environment-based application settings.  
 - ⚪ **Feature flags** — Enable or disable features without redeploying.  
-- ⚪ **Background job processing** — Execute async jobs outside request cycle.  
+- ⚪ **Background job processing** — Execute async jobs outside request cycle.
+- ⚪ **Batch processing & scheduled jobs** — Automating tasks using cron schedules and background workers.
 - ⚪ **Rate limiting basics** — Control API usage to prevent overload.  
 - ⚪ **File handling & uploads** — Manage file storage and upload flows.  
 
@@ -262,6 +263,84 @@
 - ⚪ Guard clauses  
 - ⚪ Result pattern  
 - ⚪ Specification pattern  
+
+---
+
+# 🚀 software-delivery/
+
+## local-development
+
+- ⚪ Project setup & environment configuration  
+- ⚪ Running services locally  
+- ⚪ Local databases  
+- ⚪ Environment variables  
+- ⚪ Local debugging  
+- ⚪ Local testing  
+
+---
+
+## version-control
+
+- ⚪ Git workflow (branching strategy)  
+- ⚪ Pull request workflow  
+- ⚪ Code review process  
+- ⚪ Commit standards  
+
+---
+
+## build-process
+
+- ⚪ Build pipelines  
+- ⚪ Dependency management  
+- ⚪ Build artifacts  
+- ⚪ Versioning strategy  
+
+---
+
+## testing
+
+- ⚪ Unit testing  
+- ⚪ Integration testing  
+- ⚪ API testing  
+- ⚪ End-to-end testing  
+
+---
+
+## ci-cd
+
+- ⚪ Continuous integration pipelines  
+- ⚪ Automated testing in CI  
+- ⚪ Continuous deployment pipelines  
+- ⚪ Build automation  
+
+---
+
+## deployment
+
+- ⚪ Deployment environments (dev / staging / prod)  
+- ⚪ Deployment strategies (rolling, blue-green, canary)  
+- ⚪ Database migrations during deployment  
+- ⚪ Feature flags for safe releases  
+
+---
+
+## production
+
+- ⚪ Logging in production  
+- ⚪ Monitoring systems  
+- ⚪ Metrics and alerts  
+- ⚪ Error tracking  
+- ⚪ Health checks  
+
+---
+
+## operations
+
+- ⚪ Incident handling  
+- ⚪ Rollbacks  
+- ⚪ Disaster recovery  
+- ⚪ Production debugging  
+- ⚪ Post-mortems  
 
 ---
 
