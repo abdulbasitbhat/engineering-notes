@@ -265,7 +265,7 @@
 
 ---
 
-# 🤖 AI Engineering
+# 🤖 AI/ML/DL Engineering
 
 *(To be filled as AI topics become relevant to projects)*
 
@@ -315,6 +315,7 @@
 
 ## git
 
+🟡 Commands 
 ⚪ Git internals (objects, blobs, trees, commits)  
 ⚪ Branching strategies  
 ⚪ Rebase vs merge  
