@@ -194,3 +194,29 @@ git push --force-with-lease origin master   # ✅ Safe force push
 | Merge branch | `git merge <branch>` |
 | Undo merge (local) | `git reset --hard HEAD@{n}` |
 | Force push safely | `git push --force-with-lease origin <branch>` |
+
+---
+
+## Git Scenarios to Practice
+
+1. `git merge --no-ff`
+2. `git rebase master`
+3. `git rebase -i HEAD~n` (interactive rebase)
+4. `git stash`
+5. `git stash pop` / `git stash apply`
+6. `git stash list`
+7. `git fetch` vs `git pull`
+8. Resolving conflicts during `git pull`
+9. `git clone`
+10. Pull Requests / code review flow on GitHub
+11. `git diff` / `git diff --staged`
+12. `git blame <file>`
+13. `git bisect`
+14. `git show <hash>`
+15. `git commit --amend`
+16. `git reset HEAD~1`
+17. `git cherry-pick <hash>`
+18. `git tag v1.0`
+19. `git push origin --tags`
+20. `.gitignore` setup
+21. `git config --global alias.st status` (aliases)
