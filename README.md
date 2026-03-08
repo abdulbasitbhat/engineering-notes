@@ -53,6 +53,7 @@
 
 ## dotnet
 
+- 🟠 Dot Net Project Structure (Controller, Service, Repository) 
 - 🟠 **CLR fundamentals** — Runtime environment for .NET execution.  
 - 🟠 **C# deep dive** — Advanced language features and design usage.  
 - 🟠 **Memory management in .NET** — Garbage collection and allocation.  
