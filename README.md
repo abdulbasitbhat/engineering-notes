@@ -1,6 +1,6 @@
 # 📘 Engineering Notes — Topics To Cover
 
-# 🧠 backend-engineering/
+# 🧠 backend-engineering
 
 <!--
 ## core-concepts
@@ -109,7 +109,7 @@
 
 ---
 
-# 🎨 frontend-engineering/
+# 🎨 frontend-engineering
 <!--
 ## core
 
@@ -141,7 +141,20 @@
 - ⚪ **Utility types** — Built-in type transformations.  
 - ⚪ **Type safety patterns** — Prevent runtime errors.  
 - ⚪ **API typing** — Strongly typed API responses.  
-- ⚪ **DTO design** — Structuring frontend data models.  
+- ⚪ **DTO design** — Structuring frontend data models.
+
+## Web Technologies
+- ⚪ Semantic HTML Tags — Structure with <header>, <main>, <article>.
+- ⚪ HTML Forms — Native validation and input handling.
+- ⚪ Class-Based CSS — BEM naming and selector organization.
+- ⚪ Layout & Grid — Flexbox and CSS Grid systems.
+- ⚪ CSS Variables — Theming and dynamic styling.
+- ⚪ Responsive Design — Mobile-first media queries.
+- ⚪ Modern JavaScript — ES6+ syntax and modules.
+- ⚪ DOM Logic — Event handling and content manipulation.
+- ⚪ Async Programming — Fetch API and promise handling.
+- ⚪ Tailwind CSS — Utility classes and configuration.
+
 <!--
 ## performance
 
@@ -160,7 +173,7 @@
 -->
 ---
 
-# 🏗️ system-design/
+# 🏗️ system-design
 
 ## fundamentals
 
@@ -219,7 +232,7 @@
 
 ---
 
-# 🏛️ architecture/
+# 🏛️ architecture
 
 - ⚪ **Clean architecture**
 - ⚪ **Microservices architecture**
@@ -238,7 +251,7 @@
 -->
 ---
 
-# 🧩 patterns/
+# 🧩 patterns
 
 ## design-patterns
 - ⚪ Factory  
@@ -270,7 +283,7 @@
 -->
 ---
 
-# 🚀 software-delivery/
+# 🚀 software-delivery
 
 ## local-development
 
