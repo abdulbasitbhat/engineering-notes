@@ -2,6 +2,7 @@
 
 # 🧠 backend-engineering/
 
+<!--
 ## core-concepts
 
 - ⚪ **OOP deep dive** — Master object-oriented design for scalable and maintainable systems.  
@@ -28,6 +29,31 @@
 - ⚪ **Batch processing & scheduled jobs** — Automating tasks using cron schedules and background workers.
 - ⚪ **Rate limiting basics** — Control API usage to prevent overload.  
 - ⚪ **File handling & uploads** — Manage file storage and upload flows.  
+-->
+## dotnet
+
+- 🟠 Dot Net Project Structure (Controller, Service, Repository)
+- 🟡 Dot Net Project Structure (Controller, Application, Domain, Infrastructure)
+- 🟠 **CLR fundamentals** — Runtime environment for .NET execution.  
+- 🟠 **C# deep dive** — Advanced language features and design usage.  
+- 🟠 **Memory management in .NET** — Garbage collection and allocation.  
+- 🟠 **Delegates & events** — Function references and event handling.  
+- ⚪ **LINQ deep dive** — Query data using C# expressions.  
+- ⚪ **Async/await deep dive** — Non-blocking asynchronous programming.  
+- ⚪ **Task vs thread** — Understand concurrency abstractions.  
+- ⚪ **ASP.NET Core pipeline** — HTTP request processing flow.  
+- ⚪ **Middleware deep dive** — Custom request/response processing.  
+- ⚪ **Web API design** — Build scalable backend APIs.  
+- ⚪ **Dependency injection in .NET** — Built-in DI container usage.  
+- ⚪ **Entity Framework Core** — ORM for database operations.  
+- ⚪ **EF performance tuning** — Optimize queries and tracking.  
+- ⚪ **Authentication & JWT** — Secure API access using tokens.  
+- ⚪ **Filters in ASP.NET** — Cross-cutting logic for APIs.  
+- ⚪ **Background services** — Long-running backend tasks.  
+- ⚪ **Logging (Serilog)** — Structured logging in .NET apps.  
+- ⚪ **Caching in .NET** — Improve performance with caching layers.  
+- ⚪ **Minimal APIs** — Lightweight API development style.  
+- ⚪ **SignalR basics** — Real-time communication framework.  
 
 ## java
 
@@ -49,31 +75,7 @@
 - ⚪ **Filters & interceptors** — Request/response processing hooks.  
 - ⚪ **Spring security basics** — Authentication and authorization basics.  
 - ⚪ **Java performance tuning** — Optimize runtime performance.  
-- ⚪ **Java profiling basics** — Diagnose memory and CPU issues.  
-
-## dotnet
-
-- 🟠 Dot Net Project Structure (Controller, Service, Repository) 
-- 🟠 **CLR fundamentals** — Runtime environment for .NET execution.  
-- 🟠 **C# deep dive** — Advanced language features and design usage.  
-- 🟠 **Memory management in .NET** — Garbage collection and allocation.  
-- 🟠 **Delegates & events** — Function references and event handling.  
-- ⚪ **LINQ deep dive** — Query data using C# expressions.  
-- ⚪ **Async/await deep dive** — Non-blocking asynchronous programming.  
-- ⚪ **Task vs thread** — Understand concurrency abstractions.  
-- ⚪ **ASP.NET Core pipeline** — HTTP request processing flow.  
-- ⚪ **Middleware deep dive** — Custom request/response processing.  
-- ⚪ **Web API design** — Build scalable backend APIs.  
-- ⚪ **Dependency injection in .NET** — Built-in DI container usage.  
-- ⚪ **Entity Framework Core** — ORM for database operations.  
-- ⚪ **EF performance tuning** — Optimize queries and tracking.  
-- ⚪ **Authentication & JWT** — Secure API access using tokens.  
-- ⚪ **Filters in ASP.NET** — Cross-cutting logic for APIs.  
-- ⚪ **Background services** — Long-running backend tasks.  
-- ⚪ **Logging (Serilog)** — Structured logging in .NET apps.  
-- ⚪ **Caching in .NET** — Improve performance with caching layers.  
-- ⚪ **Minimal APIs** — Lightweight API development style.  
-- ⚪ **SignalR basics** — Real-time communication framework.  
+- ⚪ **Java profiling basics** — Diagnose memory and CPU issues.
 
 ## java-vs-dotnet
 
@@ -108,7 +110,7 @@
 ---
 
 # 🎨 frontend-engineering/
-
+<!--
 ## core
 
 - ⚪ **Browser working** — How browsers process and render web apps.  
@@ -119,7 +121,7 @@
 - ⚪ **Local storage/session storage** — Client-side data storage.  
 - ⚪ **Cookies** — Small browser-stored data for sessions/auth.  
 - ⚪ **CORS** — Cross-origin request security rules.  
-
+-->
 ## react
 
 - 🟠 **React fundamentals** — Component-based UI development.  
@@ -140,7 +142,7 @@
 - ⚪ **Type safety patterns** — Prevent runtime errors.  
 - ⚪ **API typing** — Strongly typed API responses.  
 - ⚪ **DTO design** — Structuring frontend data models.  
-
+<!--
 ## performance
 
 - ⚪ **Lazy loading** — Load components on demand.  
@@ -155,7 +157,7 @@
 - ⚪ **Feature-based structure** — Organizing by feature.  
 - ⚪ **API layer design** — Clean backend communication.  
 - ⚪ **State management patterns** — Predictable state flow.  
-
+-->
 ---
 
 # 🏗️ system-design/
@@ -181,7 +183,7 @@
 - ⚪ **Message queues** — Async communication between services.  
 - ⚪ **Search systems** — Fast text/data search engines.  
 - ⚪ **File storage systems** — Scalable file storage.  
-
+<!--
 ## scalability
 
 - ⚪ **Horizontal scaling** — Add more machines.  
@@ -191,7 +193,7 @@
 - ⚪ **Replication** — Duplicate data for reliability.  
 - ⚪ **Partitioning** — Divide data for performance.  
 - ⚪ **Async processing** — Background task execution.  
-
+-->
 ## distributed-systems
 
 - ⚪ **Consensus basics** — Agreement among distributed nodes.  
@@ -219,20 +221,21 @@
 
 # 🏛️ architecture/
 
-- ⚪ **Clean architecture**  
+- ⚪ **Clean architecture**
+- ⚪ **Microservices architecture**
+- ⚪ **Monolith vs microservices**
+- ⚪ **Event-driven architecture**  
+- ⚪ **Domain driven design basics**
+- ⚪ **Contract driven development**
+<!--
 - ⚪ **Onion architecture**  
 - ⚪ **Hexagonal architecture**  
 - ⚪ **Layered architecture**  
-- ⚪ **Microservices architecture**  
-- ⚪ **Monolith vs microservices**  
 - ⚪ **Modular monolith**  
-- ⚪ **Event-driven architecture**  
-- ⚪ **Domain driven design basics**  
 - ⚪ **CQRS basics**  
 - ⚪ **Event sourcing basics**  
 - ⚪ **API first design**  
-- ⚪ **Contract driven development**  
-
+-->
 ---
 
 # 🧩 patterns/
@@ -256,7 +259,7 @@
 - ⚪ Circuit breaker  
 - ⚪ Retry pattern  
 - ⚪ Bulkhead pattern  
-
+<!--
 ## coding-patterns
 - ⚪ Fluent interfaces  
 - ⚪ Method chaining  
@@ -264,24 +267,7 @@
 - ⚪ Guard clauses  
 - ⚪ Result pattern  
 - ⚪ Specification pattern  
-
----
-
-# 📚 ddia/
-
-* 🚧 **Chapter 1 — Reliable, Scalable, and Maintainable Applications**
-* ⚪ **Chapter 2 — Data Models and Query Languages**
-* ⚪ **Chapter 3 — Storage and Retrieval**
-* ⚪ **Chapter 4 — Encoding and Evolution**
-* ⚪ **Chapter 5 — Replication**
-* ⚪ **Chapter 6 — Partitioning**
-* ⚪ **Chapter 7 — Transactions**
-* ⚪ **Chapter 8 — The Trouble with Distributed Systems**
-* ⚪ **Chapter 9 — Consistency and Consensus**
-* ⚪ **Chapter 10 — Batch Processing**
-* ⚪ **Chapter 11 — Stream Processing**
-* ⚪ **Chapter 12 — The Future of Data Systems**
-
+-->
 ---
 
 # 🚀 software-delivery/
@@ -362,12 +348,6 @@
 
 ---
 
-# 🤖 AI/ML/DL Engineering
-
-*(To be filled as AI topics become relevant to projects)*
-
----
-
 # ☁️ Cloud Engineering
 
 - ⚪ Deploying backend services to cloud  
@@ -389,7 +369,7 @@
 - ⚪ Incident handling in production systems  
 
 ---
-
+<!--
 # ⚙️ DevOps
 
 - ⚪ CI/CD pipeline fundamentals  
@@ -406,27 +386,9 @@
 - ⚪ Production debugging techniques  
 - ⚪ System health monitoring  
 - ⚪ Release management strategies  
-
+-->
 ---
-# 🔧 developer-tools/
-
-## git
-
-- 🟡 Commands 
-- ⚪ Git internals (objects, blobs, trees, commits)  
-- ⚪ Branching strategies  
-- ⚪ Rebase vs merge  
-- ⚪ Git history rewriting  
-- ⚪ Git hooks  
-- ⚪ Large repo strategies  
-- ⚪ Monorepo vs multirepo  
-
----
-
-## Linux
-
----
-
+<!--
 # 🧪 testing/
 
 - ⚪ Unit testing fundamentals  
@@ -449,6 +411,74 @@
 - ⚪ CPU bottleneck investigation  
 - ⚪ DB slow query debugging  
 - ⚪ Distributed system debugging  
+
+---
+-->
+# 🔧 developer-tools/
+
+## git
+
+- 🟡 Commands 
+- ⚪ Git internals (objects, blobs, trees, commits)  
+- ⚪ Branching strategies  
+- ⚪ Rebase vs merge  
+- ⚪ Git history rewriting  
+- ⚪ Git hooks  
+- ⚪ Large repo strategies  
+- ⚪ Monorepo vs multirepo  
+
+---
+
+## Linux for Backend Engineers (Essential Basics)
+
+- ⚪ File system navigation and manipulation (`ls`, `cd`, `cp`, `mv`, `rm`, `mkdir`, `rmdir`)
+- ⚪ Text file viewing and editing (`cat`, `less`, `head`, `tail`, `vim`, `nano`)
+- ⚪ Process management (`ps`, `top`, `htop`, `kill`, `pkill`, `systemctl`)
+- ⚪ Network diagnostics (`ping`, `curl`, `wget`, `netstat`, `ss`, `telnet`)
+- ⚪ Log analysis (`grep`, `awk`, `sed`, `journalctl`, `tail -f`)
+- ⚪ Basic shell scripting for automation
+- ⚪ Environment variables and configuration management
+- ⚪ Package management for dependencies (`apt`, `yum`, `dnf`, `pacman`)
+- ⚪ User permissions and file ownership (`chmod`, `chown`, `sudo`)
+- ⚪ Disk usage monitoring (`df`, `du`)
+- ⚪ SSH access and key management
+- ⚪ Container basics (Docker/Podman CLI for local development)
+- ⚪ Basic security practices (firewall rules, SSH hardening)
+- ⚪ Resource monitoring (`free`, `uptime`, `vmstat`)
+- ⚪ Cron jobs for scheduled tasks
+- ⚪ Debugging application crashes and performance issues
+- ⚪ Understanding service management (systemd units)
+- ⚪ Basic troubleshooting methodology for production incidents
+
+---
+<!--
+# AI/ML/DL Engineering
+
+*(To be filled as AI topics become relevant to projects)*
+
+---
+-->
+# AI Tools (Best for)
+- Claude AI - FrontEnd designs, Markdown notes
+
+---
+
+# Book Notes
+
+## 📚 Designing Data Intensive Applications/
+
+* 🚧 **Chapter 1 — Reliable, Scalable, and Maintainable Applications**
+* ⚪ **Chapter 2 — Data Models and Query Languages**
+* ⚪ **Chapter 3 — Storage and Retrieval**
+* ⚪ **Chapter 4 — Encoding and Evolution**
+* ⚪ **Chapter 5 — Replication**
+* ⚪ **Chapter 6 — Partitioning**
+* ⚪ **Chapter 7 — Transactions**
+* ⚪ **Chapter 8 — The Trouble with Distributed Systems**
+* ⚪ **Chapter 9 — Consistency and Consensus**
+* ⚪ **Chapter 10 — Batch Processing**
+* ⚪ **Chapter 11 — Stream Processing**
+* ⚪ **Chapter 12 — The Future of Data Systems**
 
 ---
 
