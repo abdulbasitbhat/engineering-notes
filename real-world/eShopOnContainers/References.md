@@ -1,0 +1,3 @@
+- https://github.com/dotnet-architecture/eshopOnContainers/wiki
+- https://github.com/dotnet/eShop
+- https://github.com/dotnet-architecture/eShopOnContainers
