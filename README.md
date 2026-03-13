@@ -283,6 +283,11 @@
 -->
 ---
 
+## real-world
+
+- 🚧 Dynamic Middleware/Connector
+- 🚧 eShopOnContainers
+
 # 🚀 software-delivery
 
 ## local-development
