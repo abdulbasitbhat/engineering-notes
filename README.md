@@ -32,8 +32,9 @@
 -->
 ## dotnet
 
-- 🟠 Dot Net Project Structure (Controller, Service, Repository)
-- 🟡 Dot Net Project Structure (Controller, Application, Domain, Infrastructure)
+- ⚪ **Dot Net Project setup** — End to End
+- 🟠 **Dot Net Project Structure (Controller, Service, Repository)**
+- 🟡 **Dot Net Project Structure (Controller, Application, Domain, Infrastructure)**
 - 🟠 **CLR fundamentals** — Runtime environment for .NET execution.  
 - 🟠 **C# deep dive** — Advanced language features and design usage.  
 - 🟠 **Memory management in .NET** — Garbage collection and allocation.  
@@ -57,6 +58,7 @@
 
 ## java
 
+- ⚪ **Java/SpringBoot Project setup** — End to End
 - ⚪ **JVM architecture** — Understand how Java programs run internally.  
 - ⚪ **Java memory model** — Learn how threads interact with memory.  
 - ⚪ **Garbage collection in Java** — Automatic memory cleanup in JVM.  
@@ -124,6 +126,7 @@
 -->
 ## react
 
+- ⚪ **React Project setup** — End to End
 - 🟠 **React fundamentals** — Component-based UI development.  
 - ⚪ **Hooks deep dive** — State and lifecycle management.  
 - ⚪ **State management** — Managing UI state effectively.  
