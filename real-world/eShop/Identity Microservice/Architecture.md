@@ -1,1 +1,1 @@
-![](../../../../shared-resources/images/eshop_architecture.png)
+![](../../../shared-resources/images/eshop_architecture.png)
