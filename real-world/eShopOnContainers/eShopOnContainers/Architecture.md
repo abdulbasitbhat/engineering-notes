@@ -9,4 +9,4 @@ So Microservices communicate with each other using publish subscribe messaging q
 Message queues can be handled either with RabbitMQ or Azure Service Bus, to convey integration events.
 
 Domain events are handled in the ordering microservice, by using MediatR, a simple in-process implementation the Mediator pattern.
-<img width="1306" height="734" alt="image" src="https://drive.google.com/uc?export=view&id=144YYoIhtnkU3Xi21Zz1GWbFqIabqZD2c" />
+![](../../../shared-resources/images/eshoponcontainers-architecture.png)
