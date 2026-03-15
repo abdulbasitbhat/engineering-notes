@@ -32,7 +32,7 @@
 -->
 ## dotnet
 
-- ⚪ **Dot Net Project setup** — End to End
+- ⚪ **Dot Net Project** — End to End Project
 - 🟠 **Dot Net Project Structure (Controller, Service, Repository)**
 - 🟡 **Dot Net Project Structure (Controller, Application, Domain, Infrastructure)**
 - 🟠 **CLR fundamentals** — Runtime environment for .NET execution.  
@@ -58,7 +58,7 @@
 
 ## java
 
-- ⚪ **Java/SpringBoot Project setup** — End to End
+- ⚪ **Java/SpringBoot Project** — End to End Project
 - ⚪ **JVM architecture** — Understand how Java programs run internally.  
 - ⚪ **Java memory model** — Learn how threads interact with memory.  
 - ⚪ **Garbage collection in Java** — Automatic memory cleanup in JVM.  
@@ -126,7 +126,7 @@
 -->
 ## react
 
-- ⚪ **React Project setup** — End to End
+- ⚪ **React Project** — End to End Project
 - 🟠 **React fundamentals** — Component-based UI development.  
 - ⚪ **Hooks deep dive** — State and lifecycle management.  
 - ⚪ **State management** — Managing UI state effectively.  
@@ -238,6 +238,8 @@
 # 🏛️ architecture
 
 - ⚪ **Clean architecture**
+  - 🚧 **SOLID Princciples**
+  - 🚧 **Components**
 - ⚪ **Microservices architecture**
 - ⚪ **Monolith vs microservices**
 - ⚪ **Event-driven architecture**  
@@ -290,6 +292,7 @@
 
 - 🚧 Dynamic Middleware/Connector
 - 🚧 eShopOnContainers
+- 🚧 eShop
 
 # 🚀 software-delivery
 
