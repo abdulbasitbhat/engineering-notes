@@ -255,15 +255,17 @@
 
 ---
 
-## real-world
+# real-world case-studies
 
 - 🚧 Dynamic Middleware/Connector
 - 🚧 eShopOnContainers
 - 🚧 eShop
 
+---
+
 # 🚀 software-delivery
 
-## local-development
+### local-development
 
 - ⚪ Project setup & environment configuration  
 - ⚪ Running services locally  
@@ -272,54 +274,56 @@
 - ⚪ Local debugging  
 - ⚪ Local testing  
 
----
-
-## version-control
+### version-control
 
 - ⚪ Git workflow (branching strategy)  
 - ⚪ Pull request workflow  
 - ⚪ Code review process  
 - ⚪ Commit standards  
 
----
-
-## build-process
+### build-process
 
 - ⚪ Build pipelines  
 - ⚪ Dependency management  
 - ⚪ Build artifacts  
 - ⚪ Versioning strategy  
 
----
+### testing
 
-## testing
-
-- ⚪ Unit testing  
+- ⚪ Unit testing fundamentals  
 - ⚪ Integration testing  
-- ⚪ API testing  
+- ⚪ Mocking strategies  
+- ⚪ Contract testing  
 - ⚪ End-to-end testing  
+- ⚪ Test data management  
+- ⚪ Testing async code  
+- ⚪ Performance testing basics  
 
----
+### debugging
 
-## ci-cd
+- ⚪ Debugging production issues  
+- ⚪ Reading stack traces effectively  
+- ⚪ Log-driven debugging  
+- ⚪ Memory leak investigation  
+- ⚪ CPU bottleneck investigation  
+- ⚪ DB slow query debugging  
+- ⚪ Distributed system debugging  
+
+### ci-cd
 
 - ⚪ Continuous integration pipelines  
 - ⚪ Automated testing in CI  
 - ⚪ Continuous deployment pipelines  
 - ⚪ Build automation  
 
----
-
-## deployment
+### deployment
 
 - ⚪ Deployment environments (dev / staging / prod)  
 - ⚪ Deployment strategies (rolling, blue-green, canary)  
 - ⚪ Database migrations during deployment  
 - ⚪ Feature flags for safe releases  
 
----
-
-## production
+### production
 
 - ⚪ Logging in production  
 - ⚪ Monitoring systems  
@@ -327,9 +331,7 @@
 - ⚪ Error tracking  
 - ⚪ Health checks  
 
----
-
-## operations
+### operations
 
 - ⚪ Incident handling  
 - ⚪ Rollbacks  
@@ -379,32 +381,7 @@
 - ⚪ Release management strategies  
 
 ---
-<!--
-# 🧪 testing/
 
-- ⚪ Unit testing fundamentals  
-- ⚪ Integration testing  
-- ⚪ Mocking strategies  
-- ⚪ Contract testing  
-- ⚪ End-to-end testing  
-- ⚪ Test data management  
-- ⚪ Testing async code  
-- ⚪ Performance testing basics  
-
----
-
-# 🐛 debugging/
-
-- ⚪ Debugging production issues  
-- ⚪ Reading stack traces effectively  
-- ⚪ Log-driven debugging  
-- ⚪ Memory leak investigation  
-- ⚪ CPU bottleneck investigation  
-- ⚪ DB slow query debugging  
-- ⚪ Distributed system debugging  
-
----
--->
 # 🔧 developer-tools/
 
 ## git
@@ -442,7 +419,6 @@
 - ⚪ Understanding service management (systemd units)
 - ⚪ Basic troubleshooting methodology for production incidents
 -->
----
 <!--
 # AI/ML/DL Engineering
 
