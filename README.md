@@ -32,7 +32,7 @@
 -->
 ## dotnet
 
-- ⚪ **Dot Net Project** — End to End Project
+- 🚧 **Dot Net Project** — Dynamic-middleware-connector
 - 🟠 **Dot Net Project Structure (Controller, Service, Repository)**
 - 🟡 **Dot Net Project Structure (Controller, Application, Domain, Infrastructure)**
 - 🟠 **CLR fundamentals** — Runtime environment for .NET execution.  
@@ -58,7 +58,7 @@
 
 ## java
 
-- ⚪ **Java/SpringBoot Project** — End to End Project
+- ⚪ **Java/SpringBoot Project**
 - ⚪ **JVM architecture** — Understand how Java programs run internally.  
 - ⚪ **Java memory model** — Learn how threads interact with memory.  
 - ⚪ **Garbage collection in Java** — Automatic memory cleanup in JVM.  
@@ -81,6 +81,8 @@
 
 ## java-vs-dotnet
 
+- 🟠 **JAR vs DLL**
+- 🟡 **Middleware in Dot Net and Filter Interceptor in Spring**
 - ⚪ **JVM vs CLR** — Compare runtime architectures.  
 - ⚪ **Spring vs ASP.NET** — Compare backend frameworks.  
 - ⚪ **Dependency injection comparison** — DI implementation differences.  
@@ -126,7 +128,7 @@
 -->
 ## react
 
-- ⚪ **React Project** — End to End Project
+- ⚪ **React Project**
 - 🟠 **React fundamentals** — Component-based UI development.  
 - ⚪ **Hooks deep dive** — State and lifecycle management.  
 - ⚪ **State management** — Managing UI state effectively.  
@@ -178,82 +180,65 @@
 
 # 🏗️ system-design
 
-## fundamentals
+## 📚 System Design Volumn 1 - Alex Xu
 
-- ⚪ **Scalability** — Handling growing system load.  
-- ⚪ **Availability** — Keeping systems operational.  
-- ⚪ **Reliability** — Ensuring consistent performance.  
-- ⚪ **Latency vs throughput** — Speed vs volume tradeoffs.  
-- ⚪ **CAP theorem** — Tradeoffs in distributed systems.  
-- ⚪ **PACELC** — Consistency vs latency tradeoffs.  
-- ⚪ **Consistency models** — Data consistency guarantees.  
-- ⚪ **Stateless systems** — Servers without stored session state.  
+* ⚪ **Chapter 1 — Scale From Zero To Millions Of Users**
+* ⚪ **Chapter 2 — Back-of-the-Envelope Estimation**
+* ⚪ **Chapter 3 — A Framework For System Design Interviews**
+* ⚪ **Chapter 4 — Design A Rate Limiter**
+* ⚪ **Chapter 5 — Design Consistent Hashing**
+* ⚪ **Chapter 6 — Design A Key-Value Store**
+* ⚪ **Chapter 7 — Design A Unique ID Generator In Distributed Systems**
+* ⚪ **Chapter 8 — Design A URL Shortener**
+* ⚪ **Chapter 9 — Design A Web Crawler**
+* ⚪ **Chapter 10 — Design A Notification System**
+* ⚪ **Chapter 11 — Design A News Feed System**
+* ⚪ **Chapter 12 — Design A Chat System**
+* ⚪ **Chapter 13 — Design A Search Autocomplete System**
+* ⚪ **Chapter 14 — Design YouTube**
+* ⚪ **Chapter 15 — Design Google Drive**
+* ⚪ **Chapter 16 — The Learning Continues**
 
-## components
+## 📚 System Design Volumn 2 - Alex Xu
 
-- ⚪ **Load balancer** — Distribute traffic across servers.  
-- ⚪ **API gateway** — Single entry for APIs.  
-- ⚪ **CDN** — Global content caching.  
-- ⚪ **Reverse proxy** — Intermediary request routing.  
-- ⚪ **Cache systems** — Fast data access layer.  
-- ⚪ **Message queues** — Async communication between services.  
-- ⚪ **Search systems** — Fast text/data search engines.  
-- ⚪ **File storage systems** — Scalable file storage.  
-<!--
-## scalability
+* ⚪ **Chapter 1 — Proximity Service**
+* ⚪ **Chapter 2 — Nearby Friends**
+* ⚪ **Chapter 3 — Google Maps**
+* ⚪ **Chapter 4 — Distributed Message Queue**
+* ⚪ **Chapter 5 — Metrics Monitoring**
+* ⚪ **Chapter 6 — Ad Click Event Aggregation**
+* ⚪ **Chapter 7 — Hotel Reservation**
+* ⚪ **Chapter 8 — Distributed Email Service**
+* ⚪ **Chapter 9 — S3-like Object Storage**
+* ⚪ **Chapter 10 — Real-time Gaming Leaderboard**
+* ⚪ **Chapter 11 — Payment System**
+* ⚪ **Chapter 12 — Digital Wallet**
+* ⚪ **Chapter 13 — Stock Exchange**
 
-- ⚪ **Horizontal scaling** — Add more machines.  
-- ⚪ **DB scaling** — Scale database reads/writes.  
-- ⚪ **Caching strategies** — Improve performance via cache.  
-- ⚪ **Sharding** — Split data across DBs.  
-- ⚪ **Replication** — Duplicate data for reliability.  
-- ⚪ **Partitioning** — Divide data for performance.  
-- ⚪ **Async processing** — Background task execution.  
--->
-## distributed-systems
+## 📚 Designing Data Intensive Applications
 
-- ⚪ **Consensus basics** — Agreement among distributed nodes.  
-- ⚪ **Leader election** — Selecting a master node.  
-- ⚪ **Distributed locks** — Coordinating shared resources.  
-- ⚪ **Event-driven systems** — Systems reacting to events.  
-- ⚪ **Pub-sub** — Publish and subscribe messaging.  
-- ⚪ **Idempotency** — Safe repeated operations.  
-- ⚪ **Exactly once vs at least once** — Delivery guarantees.  
-
-## case-studies
-
-- ⚪ **URL shortener** — Scalable link mapping system.  
-- ⚪ **WhatsApp** — Real-time messaging system design.  
-- ⚪ **Twitter** — High-write social feed system.  
-- ⚪ **Uber** — Real-time location matching.  
-- ⚪ **Netflix** — Global video streaming architecture.  
-- ⚪ **Payment system** — Reliable transaction processing.  
-- ⚪ **Notification system** — Multi-channel messaging system.  
-- ⚪ **File storage system** — Distributed storage architecture.  
-- ⚪ **Chat system** — Real-time messaging design.  
-- ⚪ **Job processing system** — Background task orchestration.  
+* 🚧 **Chapter 1 — Reliable, Scalable, and Maintainable Applications**
+* ⚪ **Chapter 2 — Data Models and Query Languages**
+* ⚪ **Chapter 3 — Storage and Retrieval**
+* ⚪ **Chapter 4 — Encoding and Evolution**
+* ⚪ **Chapter 5 — Replication**
+* ⚪ **Chapter 6 — Partitioning**
+* ⚪ **Chapter 7 — Transactions**
+* ⚪ **Chapter 8 — The Trouble with Distributed Systems**
+* ⚪ **Chapter 9 — Consistency and Consensus**
+* ⚪ **Chapter 10 — Batch Processing**
+* ⚪ **Chapter 11 — Stream Processing**
+* ⚪ **Chapter 12 — The Future of Data Systems**
 
 ---
 
 # 🏛️ architecture
 
-- ⚪ **Clean architecture**
-  - 🚧 **SOLID Princciples**
+- 🚧 **Clean architecture** - Reference Clean Architecture by Robert C. Martin
+  - 🚧 **SOLID Principles**
   - 🚧 **Components**
 - ⚪ **Microservices architecture**
-- ⚪ **Monolith vs microservices**
-- ⚪ **Event-driven architecture**  
-- ⚪ **Domain driven design basics**
-- ⚪ **Contract driven development**
-<!--
-- ⚪ **Onion architecture**  
-- ⚪ **Hexagonal architecture**  
-- ⚪ **Layered architecture**  
-- ⚪ **Modular monolith**  
-- ⚪ **CQRS basics**  
-- ⚪ **Event sourcing basics**  
-- ⚪ **API first design**  
--->
+
 ---
 
 # 🧩 patterns
@@ -266,26 +251,8 @@
 - ⚪ Adapter  
 - ⚪ Decorator  
 - ⚪ Singleton  
-- ⚪ Template method  
+- ⚪ Template method
 
-## architectural-patterns
-- ⚪ Repository pattern  
-- ⚪ Unit of work  
-- ⚪ CQRS  
-- ⚪ Saga pattern  
-- ⚪ Outbox pattern  
-- ⚪ Circuit breaker  
-- ⚪ Retry pattern  
-- ⚪ Bulkhead pattern  
-<!--
-## coding-patterns
-- ⚪ Fluent interfaces  
-- ⚪ Method chaining  
-- ⚪ Immutability  
-- ⚪ Guard clauses  
-- ⚪ Result pattern  
-- ⚪ Specification pattern  
--->
 ---
 
 ## real-world
@@ -393,7 +360,7 @@
 - ⚪ Incident handling in production systems  
 
 ---
-<!--
+
 # ⚙️ DevOps
 
 - ⚪ CI/CD pipeline fundamentals  
@@ -410,7 +377,7 @@
 - ⚪ Production debugging techniques  
 - ⚪ System health monitoring  
 - ⚪ Release management strategies  
--->
+
 ---
 <!--
 # 🧪 testing/
@@ -442,7 +409,8 @@
 
 ## git
 
-- 🟡 Commands 
+- 🟡 Commands
+- 🟡 First Time Project Setup
 - ⚪ Git internals (objects, blobs, trees, commits)  
 - ⚪ Branching strategies  
 - ⚪ Rebase vs merge  
@@ -452,7 +420,7 @@
 - ⚪ Monorepo vs multirepo  
 
 ---
-
+<!--
 ## Linux for Backend Engineers (Essential Basics)
 
 - ⚪ File system navigation and manipulation (`ls`, `cd`, `cp`, `mv`, `rm`, `mkdir`, `rmdir`)
@@ -473,7 +441,7 @@
 - ⚪ Debugging application crashes and performance issues
 - ⚪ Understanding service management (systemd units)
 - ⚪ Basic troubleshooting methodology for production incidents
-
+-->
 ---
 <!--
 # AI/ML/DL Engineering
@@ -481,30 +449,12 @@
 *(To be filled as AI topics become relevant to projects)*
 
 ---
--->
+
 # AI Tools (Best for)
 - Claude AI - FrontEnd designs, Markdown notes
 
 ---
-
-# Book Notes
-
-## 📚 Designing Data Intensive Applications/
-
-* 🚧 **Chapter 1 — Reliable, Scalable, and Maintainable Applications**
-* ⚪ **Chapter 2 — Data Models and Query Languages**
-* ⚪ **Chapter 3 — Storage and Retrieval**
-* ⚪ **Chapter 4 — Encoding and Evolution**
-* ⚪ **Chapter 5 — Replication**
-* ⚪ **Chapter 6 — Partitioning**
-* ⚪ **Chapter 7 — Transactions**
-* ⚪ **Chapter 8 — The Trouble with Distributed Systems**
-* ⚪ **Chapter 9 — Consistency and Consensus**
-* ⚪ **Chapter 10 — Batch Processing**
-* ⚪ **Chapter 11 — Stream Processing**
-* ⚪ **Chapter 12 — The Future of Data Systems**
-
----
+-->
 
 ### Status Legend
 - ⚪ Not started  
