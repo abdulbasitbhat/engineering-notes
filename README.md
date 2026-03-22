@@ -33,12 +33,12 @@
 ## dotnet
 
 - 🚧 **Dot Net Project** — Dynamic-middleware-connector
-- 🟠 **Dot Net Project Structure (Controller, Service, Repository)**
+- 🟡 **Dot Net Project Structure (Controller, Service, Repository)**
 - 🟡 **Dot Net Project Structure (Controller, Application, Domain, Infrastructure)**
-- 🟠 **CLR fundamentals** — Runtime environment for .NET execution.  
-- 🟠 **C# deep dive** — Advanced language features and design usage.  
-- 🟠 **Memory management in .NET** — Garbage collection and allocation.  
-- 🟠 **Delegates & events** — Function references and event handling.  
+- 🟡 **CLR fundamentals** — Runtime environment for .NET execution.  
+- 🟡 **C# deep dive** — Advanced language features and design usage.  
+- 🟡 **Memory management in .NET** — Garbage collection and allocation.  
+- 🟡 **Delegates & events** — Function references and event handling.  
 - ⚪ **LINQ deep dive** — Query data using C# expressions.  
 - ⚪ **Async/await deep dive** — Non-blocking asynchronous programming.  
 - ⚪ **Task vs thread** — Understand concurrency abstractions.  
@@ -81,7 +81,7 @@
 
 ## java-vs-dotnet
 
-- 🟠 **JAR vs DLL**
+- 🟡 **JAR vs DLL** - (Practical)
 - 🟡 **Middleware in Dot Net and Filter Interceptor in Spring**
 - ⚪ **JVM vs CLR** — Compare runtime architectures.  
 - ⚪ **Spring vs ASP.NET** — Compare backend frameworks.  
@@ -128,8 +128,9 @@
 -->
 ## react
 
-- ⚪ **React Project Setup**
-- 🟠 **React fundamentals** — Component-based UI development.  
+- 🟡 **React Project Setup (with tailwind css)**
+- 🚧 **React Project** — Dynamic-middleware-connector-ui
+- 🟡 **React fundamentals** — Component-based UI development.  
 - ⚪ **Hooks deep dive** — State and lifecycle management.  
 - ⚪ **State management** — Managing UI state effectively.  
 - ⚪ **Context API** — Global state without prop drilling.  
@@ -431,6 +432,14 @@
 
 ---
 -->
+
+# HPC (GPU / Cloud / Distributed / Simulation)
+
+- ⚪ GPU design and CUDA
+- ⚪ SIMD examples and CUDA implementations (College Notes)
+- ⚪ 50000 x 50000 matrix with random integers CPU vs GPU example (College Notes)
+
+---
 
 ### Status Legend
 - ⚪ Not started  
