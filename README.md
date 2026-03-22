@@ -128,7 +128,7 @@
 -->
 ## react
 
-- ⚪ **React Project**
+- ⚪ **React Project Setup**
 - 🟠 **React fundamentals** — Component-based UI development.  
 - ⚪ **Hooks deep dive** — State and lifecycle management.  
 - ⚪ **State management** — Managing UI state effectively.  
