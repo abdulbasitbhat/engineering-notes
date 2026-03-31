@@ -245,7 +245,7 @@
 # 🧩 patterns
 
 ## design-patterns
-- ⚪ Factory  
+- 🟡 Factory  
 - ⚪ Strategy  
 - 🟡 Builder  
 - ⚪ Observer  
