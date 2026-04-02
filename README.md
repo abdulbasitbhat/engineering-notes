@@ -39,7 +39,8 @@
 - 🟡 **C# deep dive** — Advanced language features and design usage.  
 - 🟡 **Memory management in .NET** — Garbage collection and allocation.  
 - 🟡 **Delegates & events** — Function references and event handling.  
-- ⚪ **LINQ deep dive** — Query data using C# expressions.  
+- 🟡 **LINQ deep dive** — Query data using C# expressions.
+- 🟡 **DotNet Project Types**
 - ⚪ **Async/await deep dive** — Non-blocking asynchronous programming.  
 - ⚪ **Task vs thread** — Understand concurrency abstractions.  
 - ⚪ **ASP.NET Core pipeline** — HTTP request processing flow.  
