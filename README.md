@@ -160,7 +160,8 @@
 - ⚪ Modern JavaScript — ES6+ syntax and modules.
 - ⚪ DOM Logic — Event handling and content manipulation.
 - ⚪ Async Programming — Fetch API and promise handling.
-- ⚪ Tailwind CSS — Utility classes and configuration.
+- 🟡 Tailwind Reference
+- 🟡 Shadcn Reference
 
 <!--
 ## performance
