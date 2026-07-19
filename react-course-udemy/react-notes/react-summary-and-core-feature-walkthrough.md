@@ -23,3 +23,53 @@ Once we create a component we can use it in 2 ways
 <Post/>
 <Post></Post>
 ```
+
+main.tsx (Entry point. Linked with html)
+```javascript
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.tsx'
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
+```
+
+App.tsx
+```javascript
+import './App.css'
+import Post from './components/Post'
+
+function App() {
+
+  return (
+    <>
+     <Post author="Abdul Basit" body="This is a sample post."/>
+     <Post author="Abdul Basit Bhat" body="This is another sample post."/>
+     {/* <Post></Post> */}
+    </>
+  )
+}
+
+export default App
+```
+
+Post.tsx
+```javascript
+// const names = ["Abdul Basit", "Abdul Basit Bhat"];
+
+function Post(props : { author? : string, body? : string }) {
+    // const chosenName = Math.random() > 0.5 ? names[0] : names[1];
+    return <div>
+        {/* <p>{chosenName}</p>
+        <p>React Developer</p> */}
+        <p>{props.author}</p>
+        <p>{props.body}</p>
+    </div>
+}
+
+export default Post;
+```
