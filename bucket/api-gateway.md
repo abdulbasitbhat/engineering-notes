@@ -114,3 +114,6 @@ For this architecture we can start with IP Access Control, Rate Limiting/Throtel
 This will be a serparate service and project. The Client connects to API Gateway and API Gateway communicates with our backend services/microservices.
 Our backend microservices can live in a private network (VPC) with zero public IP addresses. They only accept traffic coming directly from your API Gateway's private IP.   
 
+## Form Alux Xu's System Design Interview Vol. 1  
+Use HTTP 429 response, utilize Rate Limiting algorithms with a switch patterns, handle race conditions for handling distributed systems, create rate limiting rules file, apply at IP, application or any other OSI layer. Read the references provided.
+
