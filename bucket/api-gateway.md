@@ -110,7 +110,7 @@ API Gateway that uses YARP (Yet Another Reverse Proxy) framework and ASP.NET Cor
                                                              └───────────────────┘
 ```
 
-For this architecture we can start with IP Access Control, Rate Limiting/Throtelling, Response Caching, Monetization Engine and Routing. For caching we can get to use Redis.   
+For this architecture we can start with IP Access Control, Rate Limiting/Throtelling, Response Caching, Monetization Engine, Routing and 5% routing to new deployement. For caching we can get to use Redis.   
 This will be a serparate service and project. The Client connects to API Gateway and API Gateway communicates with our backend services/microservices.
 Our backend microservices can live in a private network (VPC) with zero public IP addresses. They only accept traffic coming directly from your API Gateway's private IP.   
 
