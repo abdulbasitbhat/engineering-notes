@@ -73,3 +73,99 @@ function Post(props : { author? : string, body? : string }) {
 
 export default Post;
 ```
+
+In JSX instead of class, className is used.  
+
+## In SPA, States are a concept. React allows us to manage them and render updates based on them. 
+
+## Event Listeners in React using on props and function passing
+```javascript
+import classes from './NewPost.module.css'
+
+function NewPost() {
+    //Javascript way (Imperitive way)
+    // document.querySelector('textarea')?.addEventListener('changed', function(e){
+    //     console.log(e)
+    // }
+
+    //In React we do this with on props and pass a function to it. This is called declarative way.
+    //onChange + {functionName}
+
+    function changeBodyHandler(event: React.ChangeEvent<HTMLTextAreaElement>) {
+        console.log(event.target.value);
+    }
+    return (
+        <form className={classes.form}>
+            <label htmlFor="body">Text</label>
+            <textarea name="body" required rows={3} onChange={changeBodyHandler} /> {/* Passing function */}
+
+            <label htmlFor="name">Name </label>
+            <input type="text" id="name" required />
+        </form>
+    )
+}
+
+export default NewPost;
+```
+
+## State
+
+```javascript
+import classes from './NewPost.module.css'
+
+function NewPost() {
+
+    let enteredBody = '';
+
+    function changeBodyHandler(event: React.ChangeEvent<HTMLTextAreaElement>) {
+        enteredBody = event.target.value;
+    }
+    return (
+        <form className={classes.form}>
+            <label htmlFor="body">Text</label>
+            <textarea name="body" required rows={3} onChange={changeBodyHandler} /> {/* Passing function */}
+            <p>{enteredBody}</p>
+            <label htmlFor="name">Name </label>
+            <input type="text" id="name" required />
+        </form>
+    )
+}
+
+export default NewPost;
+```
+The above code does nothing.  
+JSX code is taken once as a snapshot. Any normal variable change is not taken care of if it changes. This is why we need states. useState is the hook we use to initialize this. Hooks cant be executed in regular java functions, they can only be executed inside a component function.  
+State value can be anything.  
+
+```javascript
+import { useState } from 'react';
+import classes from './NewPost.module.css'
+
+function NewPost() {
+    const [body, setBody] = useState('');
+    
+    // const stateData = useState('')
+    // stateData[0] //current value
+    // stateData[1] //state updating function
+
+    //Change of state via state function calls a rerender of the component it resides in. Rerender only updates the dom related to that state change, not everything
+
+    function changeBodyHandler(event: React.ChangeEvent<HTMLTextAreaElement>) {
+        setBody(event.target.value);  //Call rerender of componet and set latest update.
+    }
+    return (
+        <form className={classes.form}>
+            <label htmlFor="body">Text</label>
+            <textarea name="body" required rows={3} onChange={changeBodyHandler} /> {/* Passing function */}
+            <p>{body}</p> {/*Attached with state */}
+            <label htmlFor="name">Name </label>
+            <input type="text" id="name" required />
+        </form>
+    )
+}
+
+export default NewPost;
+```
+The state variable is a constant because we cant set it directly. And if we do using setState, it will cause rerender and be a completely new state altogeteher. So state is never assigned new value, its initialized again on rerender that is triggered by setState  
+
+## State vs normal vars
