@@ -169,3 +169,76 @@ export default NewPost;
 The state variable is a constant because we cant set it directly. And if we do using setState, it will cause rerender and be a completely new state altogeteher. So state is never assigned new value, its initialized again on rerender that is triggered by setState  
 
 ## State vs normal vars
+| Feature | `useState` (State) | `let` / `const` (Normal Variable) |
+| :--- | :--- | :--- |
+| **Triggers Re-render** | Yes (updates the UI) | No (UI remains unchanged) |
+| **Persistence** | Preserved across renders | Reset on every render |
+| **When to use** | UI-bound data, inputs, toggles, lists | Static data, calculations, element IDs |
+
+## Lifting state up  
+If we have a componet A and a component B and both need a state that was in component A, we lift the state to nearest parent.  
+
+
+Note: When state of a component changes, it causes rerender of the component including children. Anywhere the state has effect, its applied, rest unchanged.
+
+```javascript
+import { useState } from "react";
+import NewPost from "./NewPost"
+import Post from "./Post"
+
+function PostsList(){
+    const [body, setBody] = useState('');
+    const [author, setAuthor] = useState('');
+
+    function bodyChangeHandler(event : React.ChangeEvent<HTMLTextAreaElement>){
+        setBody(event.target.value);
+    }
+
+    function authorChangeHandler(event : React.ChangeEvent<HTMLInputElement>){
+        setAuthor(event.target.value);
+    }
+    return (
+        <>
+            <NewPost onBodyChange={bodyChangeHandler} onAuthorChange={authorChangeHandler}/>
+            <ul>
+                <Post author={author} body={body}/>
+            </ul>
+        </>
+    )
+}
+
+export default PostsList
+```
+
+```javascript
+type NewPostProps = {
+    onBodyChange: (event: React.ChangeEvent<HTMLTextAreaElement>) => void;
+    onAuthorChange: (event : React.ChangeEvent<HTMLInputElement>) => void;
+}
+
+function NewPost(props: NewPostProps) {
+    
+    return (
+        <form>
+            <label htmlFor="name">Name </label>
+            <input type="text" id="name" onChange={props.onAuthorChange} required />
+
+            <label htmlFor="body">Text</label>
+            <textarea name="body" required rows={3} onChange={props.onBodyChange} />
+        </form>
+    )
+}
+
+export default NewPost;
+```
+
+```javascript
+function Post(props : { author? : string, body? : string }) {
+    return <div>
+        <p>{props.author}</p>
+        <p>{props.body}</p>
+    </div>
+}
+
+export default Post;
+```
